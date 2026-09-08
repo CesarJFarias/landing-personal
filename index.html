@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="César Javier Farias — Técnico Superior en Desarrollo de Software. QA Manual, Soporte Técnico IT, Front-End y Análisis de Datos.">
+  <title>César Farias · QA · Soporte IT · Front-End · Datos</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <button class="nav-toggle" aria-label="Abrir menú" id="navToggle">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-menu" id="navMenu">
+        <a href="#servicios">Especialidades</a>
+        <a href="#sobre">Sobre mí</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container">
+        <p class="hero-eyebrow">Técnico Superior en Desarrollo de Software</p>
+        <h1>César Javier Farias</h1>
+        <h2>QA Manual · Soporte Técnico IT · Front-End · Datos (SQL / Power BI)</h2>
+        <p class="hero-text">
+          Perfil analítico y orientado al detalle, enfocado en la resolución de
+          problemas. Experiencia coordinando entregas bajo metodologías ágiles y
+          formación en QA, soporte técnico, desarrollo web y análisis de datos.
+        </p>
+        <div class="hero-actions">
+          <a href="https://www.linkedin.com/in/cesar-farias1812/" target="_blank" rel="noopener" class="btn">LinkedIn</a>
+          <a href="https://github.com/CesarJFarias" target="_blank" rel="noopener" class="btn btn-ghost">Github</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="servicios">
+      <div class="container">
+        <div class="section-title-line">
+          <h3>Especialidades</h3>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h4>Soporte Técnico IT</h4>
+            <p>Soporte de equipos: armado y reparación de PCs, instalación de sistemas operativos y software, mantenimiento preventivo y correctivo.</p>
+          </article>
+          <article class="card">
+            <h4>QA Manual</h4>
+            <p>Aseguramiento de calidad: casos de prueba, reporte de bugs con severidad/prioridad, pruebas funcionales, regresión y smoke. Jira, X-Ray, Postman.</p>
+          </article>
+          <article class="card">
+            <h4>Desarrollo Front-End</h4>
+            <p>Maquetado responsive con HTML5, CSS y JavaScript, con base en React y control de versiones con Git/GitHub.</p>
+          </article>
+          <article class="card">
+            <h4>Análisis de Datos</h4>
+            <p>SQL (MySQL, PostgreSQL), Power BI (formación Santander) y Excel avanzado. Dashboards y reportes para decidir con datos.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="sobre">
+      <div class="container">
+        <div class="section-title-line">
+          <h3>Sobre mí</h3>
+        </div>
+        <div class="sobre-grid">
+          <div class="sobre-text">
+            <p>
+              Técnico Superior en Desarrollo de Software con formación
+              complementaria en QA Manual (Bug Mentor), Ciberseguridad y Data
+              Science con IA.
+            </p>
+            <p>
+              Trabajé coordinando entregas en pasantías IT bajo Scrum y Kanban,
+              aplicando criterios de aceptación antes de cada aprobación. También
+              brindo servicio técnico informático independiente.
+            </p>
+            <p>
+              Mi perfil combina <strong>QA, soporte y datos</strong>, así que entiendo
+              el producto completo: de la infraestructura a la experiencia final del usuario.
+            </p>
+          </div>
+          <ul class="skills">
+            <li>Testing manual y reporte de bugs · Jira</li>
+            <li>SQL · Power BI · Excel avanzado</li>
+            <li>HTML · CSS · JavaScript</li>
+            <li>Armado y reparación de PCs</li>
+            <li>Scrum · Kanban</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contacto">
+      <div class="container">
+        <div class="section-title-line">
+          <h3>Contacto</h3>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:cesar51mdz@gmail.com">cesar51mdz@gmail.com</a></p>
+            <p><strong>Teléfono:</strong> (0261) 6601859</p>
+            <p><strong>Ubicación:</strong> Mendoza, Argentina · disponible para remoto</p>
+          </div>
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="field">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+            </div>
+            <div class="field">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿En qué puedo ayudarte?" required></textarea>
+            </div>
+            <p class="form-error" id="formError" hidden></p>
+            <button type="submit" class="btn">Enviar mensaje</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> César Javier Farias</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
