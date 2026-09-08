@@ -1,5 +1,7 @@
 # Landing Personal — César Farias
 
+**En vivo (GitHub Pages):** https://cesarjfarias.github.io/landing-personal/
+
 Página web personal / portafolio hecha a mano con **HTML, CSS y JavaScript** (sin frameworks).
 
 ## Qué incluye
